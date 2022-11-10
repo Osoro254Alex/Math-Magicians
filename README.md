@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Math magicians Link]()
+[Math magicians Link](https://math-magic-calculator.netlify.app/)
 
 ## Authors
 
