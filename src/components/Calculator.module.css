@@ -1,36 +1,31 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.calculator {
+  display: grid;
+  grid-template-columns: 30% 65%;
+  width: 100%;
+  column-gap: 2rem;
+  padding: 1rem;
 }
 
-body {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.Application {
-  width: 45vw;
+.calculator h2 {
+  font-size: 1.1rem;
 }
 
 .answer {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  height: 50px;
+  height: 40px;
   font-size: 1.3rem;
   background-color: grey;
   padding: 8px;
   color: white;
+  width: 100%;
 }
 
 .operations {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-template-rows: repeat(5, 60px);
+  grid-template-rows: repeat(5, 40px);
 }
 
 button {
@@ -61,4 +56,14 @@ button:active {
 
 .maths:active {
   background-color: rgba(82, 40, 3, 0.966);
+}
+
+@media screen and (max-width: 600px) {
+  .calculator {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+    padding: 0;
+  }
 }
