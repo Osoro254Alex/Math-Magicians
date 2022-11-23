@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render welcome component without error matches snapshot for new Header 1`] = `
+<div
+  className="quote"
+>
+  <ul>
+    <li>
+      I hope that seeing the excitement of solving this problem will make mathematicians realize that there are lots and lots of other problems in mathematics which are going to be just as challenging in the future. —
+      <span>
+        <big>
+          <b>
+            Andrew Wiles
+          </b>
+        </big>
+      </span>
+    </li>
+    <li>
+      If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is. —
+      <span>
+        <big>
+          <b>
+            John von Neumann
+          </b>
+        </big>
+      </span>
+    </li>
+  </ul>
+</div>
+`;
