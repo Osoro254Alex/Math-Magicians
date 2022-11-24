@@ -1,20 +1,71 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math magicians: Components
 
-> This is the first project of the Math Magicians application. I set up the environment and tools needed to develop a React application. 
-
-## Screen Short
-
-![react](https://user-images.githubusercontent.com/108806646/199004542-38a0af64-f9ca-46ea-adbc-efbbe6fd87c5.gif)
-
-## Built With
-
-- Library: React.js
+## **Description**
+**Math magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations, read a random math-related quote.Built this application with react
 
 ## Live Demo
 
-[Math magicians Link]()
+[Math magicians Link](https://math-magic-calculator.netlify.app/)
+
+## **Project Goals:**
+- Use JavaScript Best pratice
+- Understand the using of [HTML & CSS best practices](https://github.com/microverseinc/curriculum-html-css/blob/main/articles/html_css_best_practices.md)
+- Use GitHub flow
+- Use [Gitflow](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/git-github/gitflow.md).
+- Setup project with [React](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/lessons/what_is_react.md)
+- Understand how to use medium-fidelity [wireframes](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/sneak_peek.md) to create a UI
+
+
+## **Prerequisites:**
+- Basic Knowledge of HTML & CSS
+- Basic Knowledge of [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) & [ES6](https://github.com/microverseinc/curriculum-javascript/blob/main/todo-list/lessons/lesson_es6-what_is_it_about.md) syntax
+- Basic Knowledge of [React Setup](https://reactjs.org/docs/getting-started.html) setup
+- [Jest](https://jestjs.io/docs/getting-started) and [React Testing Library ](https://testing-library.com/docs/react-testing-library/example-intro)
+
+## **Build With:**
+
+- HTML
+- CSS
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [React]((https://github.com/microverseinc/curriculum-javascript/blob/main/todo-list/lessons/webpack_v1_1.md))
+
+
+## **SETUP**
+
+To make use of this project, kindly run any of the following commands.
+
+```
+git clone https://github.com/Osoro254Alex/Math-Magicians.git
+```
+
+or
+
+```
+git clone git@github.com:Osoro254Alex/Math-Magicians.git
+```
+## **INSTALL**
+```
+npm install
+```
+```
+npm install --save-dev @testing-library/dom
+```
+## **Run On Server**
+To run the project on server, run below command
+
+```
+npm start
+```
+## **Run Test**
+To test run the project
+
+```
+npm run test
+```
+## **Show your support**
+
+Give a ⭐️ if you like this project!
 
 ## Authors
 
@@ -23,111 +74,19 @@
 - GitHub: [@alex_ogeto](https://github.com/Osoro254Alex)
 - LinkedIN:[@Osoro254Alex](https://www.linkedin.com/feed/)
 
-### Prerequisites
+## 🚀 **About Me**
 
-To run this app on your local computer you need the browser (Google Chrome is the best)
+I'm full stack software developer, Computer science, and Microverse student.
 
-### Setup
-
-- Clone the repository on your local machine
-- Cd into the folder
-
-### Install
-
-- Install VSCode or any code editor you like
-- Install npm by running npm install
-- run: npm start
-
-### Run tests
-
-- run: npm test
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-## 🤝 Contributing
-
+**Stack:** JavaScript, Bootstrap, Ruby, Rails, React, Redux. Available for hire!
+## 🤝 **Contributing**
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues](https://github.com/Osoro254Alex//issues)
 
-## Show your support
+Feel free to check the [issues page](https://github.com/Osoro254Alex/Math-Magicians/issues/)
+## **Acknowledgements**
 
-Give a ⭐️ if you like this project!
+- [Microverse](https://www.microverse.org/)
 
-## Acknowledgments
+## **License**
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](https://choosealicense.com/licenses/mit/LICENSE) licensed.
