@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render welcome component without error matches snapshot for new Header 1`] = `
+<div
+  className="home"
+>
+  <h2
+    className="head"
+  >
+    Welcome to our page!
+  </h2>
+  <p>
+    Calculator is important do the complex calculation and save time to solve them. Calculator helps us to get answer fast with blink of eye for many complex and lengthy mathematical problems . hence its save our time , labor and reduce the waste of papers. It saves time and omits the chances of error and makes the complex calculations easy
+  </p>
+</div>
+`;

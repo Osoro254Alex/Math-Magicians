@@ -1,10 +1,10 @@
 /* eslint-disable */
 import React from 'react';
 
-const Btn = (props) => (
+const Eachbtn = (props) => (
   <button type="button" className={props.class} onClick={props.click}>
     {props.text}
   </button>
 );
 
-export default Btn;
+export default Eachbtn;
